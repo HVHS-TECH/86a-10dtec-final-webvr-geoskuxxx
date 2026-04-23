@@ -12,11 +12,32 @@
       <a-sky color="lightblue"></a-sky>
       
       <a-entity 
-      ply-model="src:project.ply"
-      position="1 1 -2"
+      ply-model="src: terrain5.ply" 
+      position="-6.77328 -1.8001 -2" 
       rotation="-90 0 0"
       ></a-entity>
+
+      <a-entity 
+      ply-model="src: model1.ply"
+      position="-8.33755 4.49499 -2.01605" 
+      rotation="-73.52 -7.94 -23.05"
+      animation="
+      property: position;
+      from: -8.33755 4.49499 -2.01605;
+      to: -9.622 6.690 -9.738;
+      dur: 5000;
+      "
+
+      amimationSecond="
+      property: rotation;
+      from: -73.52 -7.94 -23.05;
+      to: -110.000 -7.940 -23.050;
+      dur: 5000;
+      "
+      ></a-entity>
                  
+      
+
     </a-scene>
   </body>
 </html>
